@@ -1,0 +1,37 @@
+.nav {
+    margin-left: auto;
+}
+
+.card {
+    position: relative;
+    height: 600px;
+}
+
+.thumbnail {
+    position: absolute;
+    top: 60%; /* Positionnement vertical au centre */
+    left: 50%; /* Positionnement horizontal au centre */
+    transform: translate(-50%, -50%); /* Ajustement pour centrer */
+    width: 250px; /* Largeur souhaitée pour l'image */
+    height: 150px; /* Hauteur souhaitée pour l'image */
+    overflow: hidden; /* Masquer le contenu dépassant de la zone */
+}
+
+.thumbnail img {
+    width: 100%; /* Pour occuper toute la largeur de la div parent */
+    height: auto;
+    object-fit: cover; /* Assure que l'image remplit l'espace */
+}
+
+.btn-retour {
+    margin-left: auto;
+}
+
+.btn-pagination {
+    margin-left: auto;
+}
+
+.btn-logout {
+    background: transparent;
+    border: none;
+}
